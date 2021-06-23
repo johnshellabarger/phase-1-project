@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4deca99cdc.js" crossorigin="anonymous"></script>
+    <title>Trivia Game</title>
+    
+</head>
+<body>
+    <div class='headerDiv'>
+        <h1 id='header'>Test your Trivia</h1>
+    </div>
+    <div class='container'>
+        <div id='question-container' class='hide'>
+            <div id="question"></div>
+            <div id='answer-buttons' class='btn-grid'>
+            </div>
+        </div>
+        <form id='submitScoreElement'>
+            <span id='yourScore'></span>
+            <h1>Submit Your Score</h1>
+            <input type='text' id='nameSubmit' placeholder='Enter your name'>
+            <button id='enterScore'>enter</button>
+        </form>
+        <div class='controls'>
+            <button id='start-btn'>Start</button>
+            <button id='view-score-btn'>View Scores
+                <!-- <i class="fas fa-crown"></i> -->
+            </button>
+            <button id='next-btn' class='hide'>Next</button>
+        </div>
+        <div id='scoreListContainer'>
+            <p id = 'topScores'>TOP SCORES</p>
+            <ol id='scoreList'></ol>
+        </div>
+            <p id='score'></p>
+    </div>
+    <script src='app.js'></script>
+</body>
+</html>
+
