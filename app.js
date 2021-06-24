@@ -19,13 +19,15 @@ let viewScore = document.getElementById('view-score-btn')
 let scoreList = document.getElementById('scoreList')
 let scoreListContainer = document.getElementById('scoreListContainer')
 scoreListContainer.classList.add('hide')
-
+let homeBtn = document.getElementById('home-button')
+let alertMessage = document.getElementById('alert')
+alertMessage.classList.add('hide')
 
 startButton.addEventListener('click', startGame)
 nextButton.addEventListener('click', (e) => resetQuestion(e))
 form.addEventListener('submit', handleSubmit)
-viewScore.addEventListener('click', getScores)
-
+viewScore.addEventListener('click', getScores) //getScores
+homeBtn.addEventListener('click', goHomePage)
 
 function startGame(){
     startButton.classList.add('hide')
@@ -40,6 +42,16 @@ function getQuestions(){
     fetch('https://opentdb.com/api.php?amount=5&difficulty=easy&type=multiple')
     .then(resp => resp.json())
     .then(data => showQuestion(data))
+
+    .catch (function() {
+        setTimeout(()=> {
+            alertMessage.className = 'alert'
+          })
+        setTimeout(()=> {
+            location.reload()
+          }, 5000)
+          
+    })
 }
 
 function showQuestion(data){
@@ -118,6 +130,7 @@ function showQuestionCard(){
 }
 
 function getScores(e){
+    scoreList.innerHTML = ''
     let header = document.getElementById('header')
     header.classList.add('hide')
     scoreListContainer.classList.remove('hide')
@@ -125,8 +138,13 @@ function getScores(e){
     viewScore.classList.add('hide')
     fetch('http://localhost:3000/scores')
     .then(resp => resp.json())
-    .then(data => data.forEach(displayScore))
+    .then(data => {
+      let sortedData = data.sort((a, b) => (b.score > a.score) ? 1 : (a.score === b.score) ? ((a.score > b.score) ? 1 : -1) : -1 )
+      sortedData.forEach(displayScore)
+    })
 }
+
+
 
 function displayScore(data){
     let scoreLi = document.createElement('li')
@@ -140,6 +158,18 @@ function displayScore(data){
     scoreLi.append(name, score)
     scoreList.append(scoreLi) 
 }
+
+function goHomePage() {
+    startButton.classList.remove('hide')
+    scoreListContainer.classList.add('hide')
+    viewScore.classList.remove('hide')
+    
+}
+
+// function viewScoreList() {
+//     getScores()
+// }
+
 
 function handleSubmit(){
     fetch('http://localhost:3000/scores', {

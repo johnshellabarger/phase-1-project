@@ -14,6 +14,16 @@
       "name": "Sarah",
       "score": 500,
       "id": 4
+    },
+    {
+      "name": "Freddy",
+      "score": 200,
+      "id": 5
+    },
+    {
+      "name": "jumama",
+      "score": 500,
+      "id": 6
     }
   ]
 }
