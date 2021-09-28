@@ -68,5 +68,5 @@ After you've submitted your score, take a look at the scores to see how you plac
 
 John Shellabarger - [GitHub](https://github.com/johnshellabarger) | [LinkedIn](https://www.linkedin.com/in/johnshellabarger/) | [Email](johnwilliamshellabarger@gmail.com)
 
-Jacob Harvey - [GitHub](https://github.com/johnshellabarger) | [LinkedIn](https://www.linkedin.com/in/johnshellabarger/) | [Email](johnwilliamshellabarger@gmail.com)
+Jacob Harvey - [GitHub](https://github.com/Jacobharv00) | [LinkedIn](https://www.linkedin.com/in/jacobharvey19) | [Email](jacobharv00@gmail.com)
 
