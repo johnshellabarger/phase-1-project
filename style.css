@@ -33,7 +33,7 @@ body{
 }
 
 .container{
-    margin-top: 50%;
+    margin-top: 40%;
     width:100%;
     max-width: 80%;
     background-color: white;
@@ -167,7 +167,7 @@ body{
     font-size:1.5em;
     font-family: 'Poppins', sans-serif;
     text-align: relative;
-    margin-top: 15%;
+    margin-top: 1%;
     width:100%;
     min-height:40px;
     border-radius: 5px;
