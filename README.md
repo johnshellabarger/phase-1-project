@@ -62,15 +62,9 @@ After you've finished all 10 questions, you will be asked to submit your score.
 ### View how well you did
 After you've submitted your score, take a look at the scores to see how you placed! Return to the home page to play again!  
 
-<!-- CONTRIBUTORS -->
+
+<!-- Contributors -->
 ## Contributors
-
-John Shellabarger 
-
-Jacob Harvey 
-
-<!-- CONTACT -->
-## Contact
 
 John Shellabarger - [GitHub](https://github.com/johnshellabarger) | [LinkedIn](https://www.linkedin.com/in/johnshellabarger/) | [Email](johnwilliamshellabarger@gmail.com)
 
