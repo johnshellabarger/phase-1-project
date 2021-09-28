@@ -41,6 +41,7 @@ To get a local copy up and running follow these steps.
 
 ### Landing Page
 You will be greated with a screen asking you to start a new game, or take a look at the current scores. 
+![2021-09-28 10 38 13](https://user-images.githubusercontent.com/22285810/135129443-e3bc78e7-60d9-47e9-9437-48aab9c7ede3.gif)
 
 
 ### Test your Trivia
@@ -57,5 +58,5 @@ After you've submitted your score, take a look at the scores to see how you plac
 <!-- CONTACT -->
 ## Contact
 
-John Shellabarger - [GitHub](https://github.com/johnshellabarger) | [LinkedIn](https://www.linkedin.com/in/johnshellabarger/)| [Email](johnwilliamshellabarger@gmail.com)
+John Shellabarger - [GitHub](https://github.com/johnshellabarger) | [LinkedIn](https://www.linkedin.com/in/johnshellabarger/) | [Email](johnwilliamshellabarger@gmail.com)
 
