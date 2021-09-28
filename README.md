@@ -5,7 +5,7 @@
     <br />
     <br />
   </p>
-</p>
+
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
@@ -46,10 +46,11 @@ You will be greated with a screen asking you to start a new game, or take a look
 
 ### Test your Trivia
 Click on the start button to begin testing your knowledge! Random questions will be generated for you to anwser.  
-
+</p>![2021-09-28 10 41 58](https://user-images.githubusercontent.com/22285810/135129908-46e11c3a-2250-43a8-bcf5-cc64dd8154f2.gif)
 
 ### Submit your score
 After you've finished all 10 questions, you will be asked to submit your score. 
+![2021-09-28 10 44 52](https://user-images.githubusercontent.com/22285810/135130242-21b71ff8-e8f7-458a-9791-f735d4502bcb.gif)
 
 ### View how well you did
 After you've submitted your score, take a look at the scores to see how you placed! Return to the home page to play again!  
