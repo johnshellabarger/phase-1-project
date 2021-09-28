@@ -33,7 +33,7 @@ To get a local copy up and running follow these steps.
    ```
 3. Start the App
    ```sh
-   npm start
+   open the HTML file
    ```
 
 <!-- USAGE EXAMPLES -->
